@@ -12,9 +12,9 @@ JAVA Test.
 *just like git hub*
 
 ## Usage
-VS code
-Java Swing and AWT
-AWT events
+- VS code
+- Java Swing and AWT
+- AWT events
 
 ## Credit
 - https://www.youtube.com/channel/UC2a4uL-M__jUzvKC_Puh6JQ
