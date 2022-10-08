@@ -15,7 +15,7 @@ JAVA Test.
 - Java Swing and AWT
 - AWT events
 
-> Usage: Goto output folder, and open run then jar is automatically runs no uses of jar command
+> Usage: Goto output folder, and open run.bat, then jar is automatically runs; no uses of jar command
 
 ## Credit
 - https://www.youtube.com/channel/UC2a4uL-M__jUzvKC_Puh6JQ
