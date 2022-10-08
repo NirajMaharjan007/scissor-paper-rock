@@ -32,6 +32,8 @@ public class ActivityPanel extends JPanel implements ActionListener {
 
         JPanel reset_panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 5));
         reset = new JButton(reset_icon);
+
+        reset_panel.setBorder(BorderFactory.createEmptyBorder(250, 10, 50, 25));
         reset_panel.add(reset);
         reset.addActionListener(this);
         add(reset_panel, BorderLayout.EAST);
@@ -50,10 +52,17 @@ public class ActivityPanel extends JPanel implements ActionListener {
         score_p = new JLabel("Player score: " + score_player);
         score_c = new JLabel("Computer score: " + score_computer);
 
+        Font font = new Font("Comic sans MS", Font.PLAIN, 18);
+        score_c.setFont(font);
+        score_p.setFont(font);
+
+        score_panel.setBorder(BorderFactory.createEmptyBorder(5, 20, 5, 10));
         score_panel.add(score_c);
         score_panel.add(score_p);
 
         add(score_panel, BorderLayout.WEST);
+
+        setBorder(BorderFactory.createEmptyBorder(10, 4, 10, 4));
     }
 
     private void init() {
