@@ -9,7 +9,6 @@ JAVA Test.
 
 > Note: **This is TEST from Niraj Maharjan** 
 
-*just like git hub*
 
 ## Usage
 - VS code
