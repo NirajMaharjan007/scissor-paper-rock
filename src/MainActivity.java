@@ -17,7 +17,7 @@ public class MainActivity extends JFrame {
 
     public static void main(String[] args) throws Exception {
         System.out.println("MainActivity.main()");
-        UIManager.setLookAndFeel("com.formdev.flatlaf.FlatLightLaf");
+        UIManager.setLookAndFeel("com.formdev.flatlaf.FlatIntelliJLaf");
         new MainActivity();
     }
 }
