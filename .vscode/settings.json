@@ -1,4 +1,13 @@
 {
+    "files.exclude": {
+        "bin": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
     "java.project.sourcePaths": [
         "src"
     ],
